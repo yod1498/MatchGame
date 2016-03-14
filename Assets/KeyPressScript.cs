@@ -10,8 +10,8 @@ public class KeyPressScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.anyKeyDown){
-			counter++;
-			outputText.text = "Key Press : " + counter;
+			counter--;
+			outputText.text = "Key Press 2 : " + counter;
 		}
 	}
 }
