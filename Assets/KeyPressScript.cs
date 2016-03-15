@@ -11,7 +11,7 @@ public class KeyPressScript : MonoBehaviour {
 	void Update () {
 		if(Input.anyKeyDown){
 			counter--;
-			outputText.text = "Key Press 2 : " + counter;
+			outputText.text = "Key Press 4 : " + counter;
 		}
 	}
 }
